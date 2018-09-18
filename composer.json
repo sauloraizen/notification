@@ -1,0 +1,24 @@
+{
+    "name": "saulomeneghel/notification",
+    "description": "Teste de projeto do curso de Composer da Up",
+    "type": "library",
+    "license": "Mit",
+    "authors": [
+        {
+            "name": "Saulo Meneghel",
+            "email": "sauloraizen@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.0.5"
+    },
+    "config": {
+    	"vendor-dir": "lib_ext"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\" : "_app"
+        }
+    }
+}
